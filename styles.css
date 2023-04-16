@@ -1,0 +1,246 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	padding: 0;
+	margin: 0;
+	background: #332f2c;
+	color: ivory;
+}
+
+.navbar
+{
+	background-image: url(pattern.jpg);
+
+}
+
+a.blakk
+{
+	background-color: #000;
+	color: #ccc;
+	font-weight: bolder;
+}
+
+a.hollow
+{
+	background-color: transparent;
+}
+
+img.smol
+{
+	width: 30px;
+	height: 25px;
+}
+
+a.blakk:hover
+{
+	color: ivory;
+}
+
+.nav-link,
+.navbar-brand
+{
+	color: #fff;
+	cursor: pointer;
+}
+
+.nav-link
+{
+	margin-right: 0.4em;
+}
+
+.navbar-collapse
+{
+	justify-content: flex-end;
+}
+
+.header
+{
+	background-image: url(bg.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 640px;
+}
+
+.overlay
+{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.titles
+{
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+
+.titles p
+{
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.titles button
+{
+	border: 1px solid #163109;
+	background: #ffffff;
+	color: #fff;
+}
+
+.titles button:hover
+{
+	border: 1px solid #fff;
+	background: #fff;
+	color: #000;
+}
+
+.ag
+{
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+
+.btn
+{
+	background-color: #f2efde;
+	border: 1px solid #333;
+	color: #A15512;
+	margin-top: 20px;
+}
+
+.btn:hover
+{
+	background-color: #A15512;
+	border: 1px solid #f7f2d8;
+	color: ivory;
+}
+
+.page-footer
+{
+	background-color: #222;
+	color: #ccc;
+	padding: 60px 0 30px;
+}
+
+.footer
+{
+	color: #666;
+	padding: 40px 0;
+}
+
+ul.li:hover
+{
+	background-color: #000;
+	color:#fff
+}
+
+.headR
+{
+	background-image: url(sep.jpg);
+	background-size: cover;
+	color: ivory;
+}
+
+.exp
+{
+	font-size: small;
+}
+.thicc
+{
+	font-size: larger;
+	font-weight: bolder;
+}
+
+.ff
+{
+	height: 225px;
+}
+table
+{
+	height: 50px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.grey 
+{
+	background-color: #666;
+	border: ivory;
+	color: ivory;
+}
+
+.yllw
+{
+	background-color: lightgoldenrodyellow;
+}
+
+#alcim
+{
+	color: #c20000;
+	font-weight: bolder;
+}
+
+.box {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 16vh;
+  }
+  
+  .box div {
+	width: auto;
+	height: 100px;
+
+  }
+input[type='number']{
+    width: 3vw;
+} 
+form
+{
+	text-align: center;
+}
+
+.upp { vertical-align: 3.5ex; font-size: 25%; }
+
+td.upper_line { border-top:solid 3px ivory; }
+table.fraction { text-align: center; vertical-align: middle;
+	margin-top:0.5em; margin-bottom:0.5em; line-height: 2em; }
+
+.dble
+{
+	font-size: 300%;
+}
+
+a
+{
+	color: darkorange;
+}
+a:hover
+{
+	color: darkorange;
+}
+
+#element1 {padding-left : 15vw;float:left}
+#element2 {padding-left : 20px;float:left;}
+#element3 {padding-left : 20px;float:left;padding-right : 15vw;}
+
+.aut {font-size: 1vw;}
+
+.size
+{
+	font-size: 1.5vh;
+}
